@@ -4,7 +4,7 @@ pip-install:
 
 
 .PHONY: docker
-start:
+start-docker:
 	docker-compose up -d
 
 .PHONY: python_scripts
