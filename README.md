@@ -30,3 +30,17 @@
   ```
   make perform-etl
   ```
+
+### Steps to accees Postgres Database and check results
+1. Execute the following command
+  ```
+  psql -d postgres -U postgres -p 5432 -h localhost -W
+  ```
+Note: Credentials for postgres database are
+* username=postgres
+* password=postgres
+2. Execute following query via postgres connection
+  ```
+  postgres=# select * from user_logins;
+  ```
+  
