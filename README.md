@@ -11,8 +11,8 @@
   ```
   cd Fetch-DataEngineer
   ```
-3. Configure AWS credentials (Need to do inspite of local stack to avoid connection issues)
-   Run following commands
+3. Configure AWS credentials (Need to do inspite of local stack to avoid connection issues) \
+Run following commands
   ```
   aws configure set profile.default.aws_access_key_id temp_key
   aws configure set profile.default.aws_secret_access_key temp_secret_key
@@ -31,7 +31,7 @@
   make perform-etl
   ```
 
-### Steps to accees Postgres Database and check results
+### Steps to access Postgres Database and check results
 1. Execute the following command
   ```
   psql -d postgres -U postgres -p 5432 -h localhost -W
