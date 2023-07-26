@@ -1,5 +1,3 @@
-# Fetch-DataEngineer challenge
-
 ## ETL from a SQS queue to a Postgres Database
 
 ### Steps to run the code
